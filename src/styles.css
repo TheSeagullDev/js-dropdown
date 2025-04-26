@@ -1,0 +1,28 @@
+.dropdown {
+  width: fit-content;
+  padding: 10px;
+  background-color: #eef8ff;
+  border-radius: 10px;
+}
+
+.dropdown:hover {
+  padding-bottom: 0;
+}
+
+.dropdown-item-container {
+  margin: 4px -10px 0;
+}
+
+.dropdown-item {
+  padding: 4px;
+  padding-left: 10px;
+  background-color: #bae2ff;
+}
+
+.dropdown-item:hover {
+  background-color: #bbd7eb;
+}
+
+.dropdown-item:last-of-type {
+  border-radius: 0 0 10px 10px;
+}
